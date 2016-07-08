@@ -12,7 +12,7 @@ class Substring
      substring = gets.chomp
      man = [] 
      manly.each do |i|
-         if i.include?"man"
+         if i.include? substring
          man.push(i);
          end
      end
